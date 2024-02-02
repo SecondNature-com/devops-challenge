@@ -5,13 +5,17 @@
 This challenge is for a candidate who is passionate about DevOps and has strong competency with both AWS and Terraform.
 
 We are not aiming to take too much of your personal time for this challenge. We expect to see how you approach the problem and how you can solve it, and not the most perfect written code in
-a `tf` file nor a too complicated Pipeline.
+a `tf` file nor a too complicated Pipeline. Please don't spend more than a couple of hours on this challenge.
 
 We are breaking the challenge in two pieces, one for a piece of Terraform code that could set up an Auto Scaling Group
 (ASG) of web servers that deliver a website from a load balancer; and the second piece is a manual process to
-configure a CI/CD Pipeline using AWS CodePipeline. Instructions below:
+configure a CI/CD Pipeline using AWS CodePipeline. 
+
+Instructions below:
 
 #### EC2 Configuration
+
+First, create a fork of this repository to your personal GitHub account. All work should be done in your personal repository.
 
 A starting point can be found in the [main terraform file](main.tf). The AMI used is included in the Free Tier.
 There is no need to run a specific web server, and instead you can use `busybox` to run a server as soon as your
@@ -75,7 +79,7 @@ Some proposed steps:
 - Update the bucket permissions to allow public access
 - Test the Pipeline by pushing some changes to your repository
 
-> :warning: When ready, please grant access to your repo to [mitchell-bu](https://github.com/mitchell-bu), so he can push and
+> :warning: When ready, please grant access to your repo to [mitchell-bu](https://github.com/mitchell-bu) and [zoix](https://github.com/zoix), so they can push and
 > test the Pipeline.
 
 ## Bonus Points
@@ -90,7 +94,7 @@ Some proposed steps:
 You would need to have an AWS Free Tier account, and we do not need to have access.
 
 Please create a PR with an overview of what you have accomplished, including the DNS name for the ALB, the S3 URI, and
-any other information that you consider relevant to share.
+any other information that you consider relevant to share. Be sure to add [mitchell-bu](https://github.com/mitchell-bu) and [zoix](https://github.com/zoix) and reviewers to the PR.
 
 Finally, please specify how much of your time you spent on this challenge. This won't necessarily affect your score, and
 will be used internally to adjust this and any other test.
