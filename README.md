@@ -100,3 +100,5 @@ Finally, please specify how much of your time you spent on this challenge. This 
 will be used internally to adjust this and any other test.
 
 You optionally can include the necessary steps to run your solution.
+
+> :warning: Please include your name in the PR so we can easily identify you
