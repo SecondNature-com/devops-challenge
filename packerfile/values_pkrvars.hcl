@@ -1,0 +1,6 @@
+profile       = "zaga-profile"
+ami_name      = "zaga-aws-ubuntu-zaga"
+instance_type = "t2.micro"
+region        = "us-east-1"
+source_ami    = "ami-0c7217cdde317cfec"
+ssh_username  = "ubuntu"
