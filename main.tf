@@ -222,13 +222,11 @@ resource "aws_iam_policy" "codebuild_policy" {
   EOF
 }
 
-# Attach policies to CodePipeline Role
 resource "aws_iam_role_policy_attachment" "codepipeline_attach" {
   role       = aws_iam_role.codepipeline_role.name
   policy_arn = aws_iam_policy.codepipeline_policy.arn
 }
 
-# Attach policies to CodeBuild Role
 resource "aws_iam_role_policy_attachment" "codebuild_attach" {
   role       = aws_iam_role.codebuild_role.name
   policy_arn = aws_iam_policy.codebuild_policy.arn
