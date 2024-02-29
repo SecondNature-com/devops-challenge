@@ -64,7 +64,7 @@ Please create a repository containing a single file called `index.html` with the
     <meta name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Zaga Challenge</title>
+    <title>Second Nature Challenge</title>
   </head>
   <body>
     <h1>Hello, World!</h1>
